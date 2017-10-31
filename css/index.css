@@ -1,0 +1,391 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+html{
+	font-size: 100px;
+	width: 100%;
+	background: rgb(238,238,238);
+}
+
+header{
+	width: 100%;
+	height: 37px;
+	background-image: url(../img/header.png);
+	background-repeat: no-repeat;
+	background-size: .27rem;
+	background-position-x:4px;
+	background-position-y:50%;  
+	background-color: #fe5400;
+	position: fixed;
+}
+
+header div{
+	height: 25px;
+	margin-top: 6px;
+	left: 0.37rem;
+	right: 0.1rem;
+	position: absolute;
+    background-color: #B52600;
+    text-align: center;
+    border-radius: 4px;
+}
+header>div>span{
+	margin-top: 6px;
+	right: 37%;
+	width: 40%;
+    font-size: 13px;
+    position: absolute;
+    color: rgb(240,224,220);
+}
+section{
+	max-width: 540px;
+	min-width: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+section>img{
+	width: 100%;
+	height: 100%;
+	margin-top: 37px;
+}
+ .banner2{
+	width: 100%;
+	margin-top: -27px;
+	font-size: 0.12rem;
+	background: #fff;
+	border-bottom: 1px solid #eee;
+  	
+}
+ .banner2 ul{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
+}
+.banner2 ul li{
+	width: 20%;
+	margin-top: .14rem;
+	color: rgb(93,101,107);
+}
+ .banner2 ul li:last-child{
+	padding-bottom: 0.15rem;
+}
+ .banner2 ul li img{
+	width: 86%;
+	margin-left: 0.02rem;
+}
+ .banner2 ul li p{
+	text-align: center;
+	margin-right: 0.09rem;
+}
+ .banner3{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+ .banner3 span{
+	font-size: 0.13rem;
+	float: left;
+}
+ .banner3 span#one{
+	display: block;
+	width: 20%;
+	padding-top: 8%;
+	margin-top: 0.07rem;
+	border-right: 1px solid #eee;
+	box-sizing: border-box;
+	background: url(../img/31.png) no-repeat;
+	background-position: center center;
+	background-size: 80%;
+}
+ .banner3 span#two{
+	border: 1px solid #f00;
+	border-radius: 4px;
+	color: #f00;
+	margin-top: 2.5%;
+	margin-left: 0.2rem;
+}
+ .banner3 span#three{
+	width: 60%;
+	margin-top: 2.5%;
+	margin-left: 0.15rem;
+}
+.banner4{
+ 	width: 100%;
+	margin-top: .1rem;
+	background: #fff;
+	box-shadow: 0 2px 1px #ccc;
+}
+.banner4 div{
+	float: left;
+}
+.banner4 .left{
+	background: url(../img/41.jpg);
+	width: 40%;
+	padding-top: 50%;
+	background-size: 100%;
+	border-right:  1px solid #eee;
+	box-sizing: border-box;
+}
+.banner4 .right{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner4 .right div{
+	width: 50%;
+}
+.banner4 .right1{
+	background: url(../img/421.jpg) left top no-repeat;
+	background-size: 100%;
+	padding-top: 40%;
+	border-bottom: 1px solid #eee;
+}
+.banner4 .right2{
+	background: url(../img/422.png) left top no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #eee;
+}
+.banner4 .right3{
+	background: url(../img/431.jpg) left top no-repeat;
+	background-size: 100%;
+	padding-top: 42%;
+	border-right: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner4 .right4{
+	background: url(../img/432.png) left top no-repeat;
+	background-size: 100%;
+}
+ .banner5{
+	width: 100%;
+	font-size: 0.14rem;
+	background-color: #fff;
+	margin-top: 0.1rem;
+    box-shadow: 0 2px 1px #ccc;
+
+}
+.banner5 .tubiao{
+	background: url(../img/51.png) no-repeat;
+	background-position: 42% 55%;
+	background-size: 4.5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+}
+ .banner5 .tubiao p{
+	color: rgb(255, 53, 14);
+	text-align: left;
+	width: 20%;
+	margin-left: 45%;
+}
+.banner5 .buju{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.banner5 .buju div:nth-of-type(1){
+	width: 40%;
+	background: url(../img/521.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+	border-right: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner5 .buju div:nth-of-type(2){
+	width: 20%;
+	background: url(../img/522.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+	border-right: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner5 .buju div:nth-of-type(3){
+	width: 20%;
+	background: url(../img/523.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+	border-right: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner5 .buju div:nth-of-type(4){
+	width: 20%;
+	background: url(../img/524.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+}
+.banner5 .buju div:nth-of-type(5){
+	width: 40%;
+	background: url(../img/531.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+	border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner5 .buju div:nth-of-type(6){
+	width: 20%;
+	background: url(../img/532.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+	border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner5 .buju div:nth-of-type(7){
+	width: 20%;
+	background: url(../img/533.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner5 .buju div:nth-of-type(8){
+	width: 20%;
+	background: url(../img/534.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner6{
+	margin-top: .1rem;
+	font-size: 0.14rem;
+	box-shadow: 0 2px 1px #ccc;
+	background: #fff;
+}
+.banner6 .tubiao2 {
+	background: url(../img/611.png) no-repeat;
+	background-position: 42% 50%;
+	background-size: 4.5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner6 .tubiao2 p{
+	color: rgb(209, 9, 9);
+	text-align: left;
+	width: 20%;
+	margin-left: 45%;
+}
+.banner6 .buju2{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.banner6 .buju2 div:nth-of-type(1){
+	width: 50%;
+	background: url(../img/91.png) no-repeat;
+	padding-top: 29%;
+	background-size: 100%;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner6 .buju2 div:nth-of-type(2){
+	width: 50%;
+	background: url(../img/92.png) no-repeat;
+	padding-top: 29%;
+	background-size: 100%;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner6 .buju2 div:nth-of-type(3){
+	width: 25%;
+	background: url(../img/101.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+	border-right: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner6 .buju2 div:nth-of-type(4){
+	width: 25%;
+	background: url(../img/102.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+	border-right: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner6 .buju2 div:nth-of-type(5){
+	width: 25%;
+	background: url(../img/103.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+	border-right: 1px solid #eee;
+	box-sizing: border-box;
+}
+.banner6 .buju2 div:nth-of-type(6){
+	width: 25%;
+	background: url(../img/104.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+}
+.banner7 {
+	margin-top: .1rem;
+}
+.banner7 div{
+	background: url(../img/71.png) no-repeat;
+	padding-top: 30%;
+	background-size: 100%;
+}
+footer{
+	position: fixed;
+	height: 45px;
+	bottom: 0px;
+	width: 100%;
+	font-size: 12px;
+	background: #fff;
+}
+footer ul{
+	width: 100%;
+	display: flex;
+
+}
+footer ul li{
+	width: 20%;
+	text-align: center;
+	color: rgb(93,101,107);
+	margin-top: 5px;
+	cursor: pointer;
+}
+footer ul li span{
+	font-size: 0.22rem;
+}
+#top a{
+	display: block;
+	background: #fff url(../img/top.png) no-repeat;
+	background-position: center top;
+	background-size: 50%;
+	font-size: 0.14rem;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 1px solid #acacac;
+	position: fixed;
+	bottom: 60px;
+	right: 20px;
+}
+#top a span{
+	color: #acacac;
+	position: relative;
+	top: 20px;
+	left: 10px;
+}
